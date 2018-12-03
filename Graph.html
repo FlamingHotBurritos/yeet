@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AQUALOOP</title>
+<script type="text/javascript" src="date_time.js"></script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+
+		<div id="logo">
+		
+		</div>
+
+		<div id="menu">
+
+		</div>
+
+	</div>
+
+	<div id="banner" class="container">
+		<div class="title">
+			<h2>Aqualoop</h2>
+			<span class="byline">Marine Surface Water Data Collection Buoy System</span>
+		</div>
+	</div>
+</div>
+<div id="wrapper">
+	<div id="three-column" class="container">
+		<div class="title">
+			<h2>Sensor Data</h2>
+			<p id="date_time"></p>
+            <script type="text/javascript">
+            	window.onload = date_time('date_time');
+            	window.onload = Sensor('myFunction');
+        	</script>
+<span class="byline">Press the button to show the sensor values</span>
+		</div>
+		<table style="width:100%">
+				<tr>
+					<td colspan="6">
+						<button class="button button-alt" onclick="myFunction()"><span> Sensor Value </span> </button>
+					</td>
+				</tr>
+		<tr>
+
+		<td>	
+		<div class="box1">
+			<div class="button button-alt"><a>Temperature</div></a>
+		</div>
+		<br>
+		<br>
+			<p id="Temp"><strong></strong></p>
+
+		</td>
+
+
+		<td>	
+		<div class="box2">
+			<div class="button button-alt"><a>pH</div></a>
+		</div>
+		<br>
+		<br>
+		<p id="pH"><strong></strong></p>
+
+		</td>
+
+
+		<td>
+		<div class="box3">
+			<div class="button button-alt"><a>Turbidity</div></a>
+		</div>
+		<br>
+		<br>
+		<p id="Turbidity"><strong></strong></p>
+
+		</td>
+
+		<td>	
+		<div class="box4">
+			<div class="button button-alt"><a>Conductivity</div></a>
+		</div>
+		<br>
+		<br>
+		<p id="Conductivity"><strong></strong></p>
+
+		</td>
+
+
+		<td>	
+		<div class="box5">
+			<div class="button button-alt"><a>Salinity</div></a>
+		</div>
+		<br>
+		<br>
+		<p id="Salinity"><strong></strong></p>
+
+		</td>
+
+
+		<td>
+		<div class="box6">
+			<div class="button button-alt"p><a>TDS</div></a>
+		</div>
+		<br>
+		<br>
+		<p id="TDS"><strong></strong></p>
+
+		</td>
+
+		</tr>
+
+
+	</table>
+	</div>
+</div>
+<div id="welcome">
+	<div class="container">
+		<div class="title">
+
+
+
+
+			<a href = "Graph3.html"><button class = "button button-alt"><span> Sensor Data </span></button></a>
+		<br>
+		<br>
+	</div>
+
+
+
+
+			
+			
+		</div>
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Chio Ritualo</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+
+</body>
+</html>
